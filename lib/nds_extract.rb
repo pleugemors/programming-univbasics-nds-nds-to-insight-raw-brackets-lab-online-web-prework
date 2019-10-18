@@ -33,5 +33,6 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   nil
+  puts ret_hash
   return ret_hash
 end
