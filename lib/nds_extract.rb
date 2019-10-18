@@ -15,7 +15,6 @@ def directors_totals(nds)
       sum += nds[index][:movies][num_movies][:worldwide_gross]
       num_movies += 1 
     end
-    #temp_hash = {nds[index][:name] => sum}
     ret_hash[nds[index][:name]]= sum    
     index += 1
   end
@@ -33,6 +32,5 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   nil
-  puts ret_hash
   return ret_hash
 end
